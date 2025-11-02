@@ -1,4 +1,4 @@
-# Wi-Fi Crowd Density (RSSI-based)
+# Wi-Fi Crowd Density
 
 Raspberry Pi 기반 Wi-Fi RSSI 수집 및 분석 코드
 
