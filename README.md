@@ -1,20 +1,9 @@
 # Wi-Fi Crowd Density (RSSI-based)
 
-Raspberry Pi ±â¹Ý Wi-Fi RSSI ¼öÁý ¹× ºÐ¼® ÄÚµåÀÔ´Ï´Ù.  
-½ÇÇè °á°ú³ª µ¥ÀÌÅÍ´Â °ø°³ÇÏÁö ¾Ê°í, ÄÚµå¿Í ¹®¼­¸¸ ¾÷·ÎµåÇÕ´Ï´Ù.
+Raspberry Pi ê¸°ë°˜ Wi-Fi RSSI ìˆ˜ì§‘ ë° ë¶„ì„ ì½”ë“œ
 
-## ±¸¼º
-- RSSI ¼öÁý ÄÚµå: RSSI¸¦ ÁÖ±âÀûÀ¸·Î ÃøÁ¤ÇÏ°í CSV·Î ÀúÀå
-- ºÐ¼® ÄÚµå: Æò±Õ, ºÐ»ê, ÀÌµ¿Æò±Õ °è»ê ¹× ½Ã°¢È­
-- ÇÐ½À ÄÚµå: ¿ä¾à Æ¯Â¡À¸·Î ºÐ·ù ¸ðµ¨ ÇÐ½À
-- ½Ç½Ã°£ Ãß·Ð ÄÚµå: ÃÖ±Ù RSSI µ¥ÀÌÅÍ¸¦ ±â¹ÝÀ¸·Î ¹ÐÁýµµ ¿¹Ãø
-
-## ¼³Ä¡
-python -m venv venv  
-venv\Scripts\activate  
-pip install -r requirements.txt
-
-## »ç¿ë
-- RSSI ¼öÁý: ¶óÁîº£¸®ÆÄÀÌ¿¡¼­ ½ÇÇà
-- ºÐ¼®: ¼öÁýµÈ CSV ÆÄÀÏ ºÐ¼®
-- ÇÐ½À: Åë°è Æ¯Â¡À» ÀÌ¿ëÇØ ¸ðµ¨ ÇÐ½À
+## êµ¬ì„±
+- RSSI ìˆ˜ì§‘ ì½”ë“œ: RSSIë¥¼ ì£¼ê¸°ì ìœ¼ë¡œ ì¸¡ì •í•˜ê³  CSVë¡œ ì €ìž¥
+- ë¶„ì„ ì½”ë“œ: í‰ê· , ë¶„ì‚°, ì´ë™í‰ê·  ê³„ì‚° ë° ì‹œê°í™”
+- í•™ìŠµ ì½”ë“œ: ìš”ì•½ íŠ¹ì§•ìœ¼ë¡œ ë¶„ë¥˜ ëª¨ë¸ í•™ìŠµ
+- ì‹¤ì‹œê°„ ì¶”ë¡  ì½”ë“œ: ìµœê·¼ RSSI ë°ì´í„°ë¥¼ ê¸°ë°˜ìœ¼ë¡œ ë°€ì§‘ë„ ì˜ˆì¸¡
